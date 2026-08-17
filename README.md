@@ -164,6 +164,13 @@ src/main/resources/application.properties
 
 Example:
 
+![image alt](https://github.com/NandaniRajput876/parking-system/blob/bdc9447fa84f296950ca09a0213ecfce2e38eba7/application.properties.jpeg)
+
+🧪 Testing:
+
+The project includes Spring Boot testing dependencies.
+
+
 
 
 
