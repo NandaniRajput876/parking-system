@@ -66,7 +66,7 @@ MySQL Database
 📂 Project Structure
 A recommended structure for the Parking Management System is:
 
-parking-management-system
+           parking-management-system
 │
 ├── src
 │   ├── main
