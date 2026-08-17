@@ -154,5 +154,16 @@ Spring Data JPA is used to communicate with the database.
 
 The project includes the MySQL Connector/J runtime dependency in pom.xml.
 
+![image alt](https://github.com/NandaniRajput876/parking-system/blob/871cdf2b51c1ff7301fec2dbf928ba2e931be952/database.jpeg)
+
+⚙ Configuration:
+
+Database configuration can be provided in:
+
+src/main/resources/application.properties
+
+Example:
+
+
 
 
