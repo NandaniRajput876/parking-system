@@ -85,7 +85,66 @@ A recommended structure for the Parking Management System is:
 
 ![image alt](https://github.com/NandaniRajput876/parking-system/blob/5ce0248e68bae3b6feffaf02933ffec50ff591e6/project_structure.jpeg)
  
+🚘 Core Modules:
 
+The application can be organized around the following modules.
+
+Vehicle Management:
+Responsible for managing vehicles entering and leaving the parking facility.
+
+→ Typical operations:
+
+a) Add Vehicle
+
+b) Get Vehicle
+
+c) Update Vehicle
+
+d) Delete Vehicle
+
+Parking Slot Management:
+Responsible for managing available and occupied parking slots.
+
+→ Typical operations:
+
+a) Create Parking Slot
+
+b) View Parking Slots
+
+c) Check Slot Availability
+
+d) Update Slot Status
+
+→ Example slot states:
+
+a) AVAILABLE
+
+b) OCCUPIED
+
+Parking Management:
+Responsible for maintaining parking records.
+
+A parking record can contain information such as:
+
+a) Vehicle
+
+b) Parking Slot
+
+c) Entry Time
+
+d) Exit Time
+
+e) Parking Status
+
+🌐 REST API:
+
+The backend exposes REST APIs using Spring Web MVC.
+
+Typical API structure: Parking slot APIs: Parking APIs:
+
+🗄 Database:
+
+The application uses MySQL as its database. Spring Data JPA is used to communicate with the database. The project includes the MySQL Connector/J runtime dependency in pom.xml.
 
 
 
