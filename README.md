@@ -89,7 +89,7 @@ A recommended structure for the Parking Management System is:
 
 The application can be organized around the following modules.
 
-Vehicle Management:
+1. Vehicle Management:
 Responsible for managing vehicles entering and leaving the parking facility.
 
 → Typical operations:
@@ -102,7 +102,7 @@ c) Update Vehicle
 
 d) Delete Vehicle
 
-Parking Slot Management:
+2. Parking Slot Management:
 Responsible for managing available and occupied parking slots.
 
 → Typical operations:
@@ -121,7 +121,7 @@ a) AVAILABLE
 
 b) OCCUPIED
 
-Parking Management:
+3. Parking Management:
 Responsible for maintaining parking records.
 
 A parking record can contain information such as:
