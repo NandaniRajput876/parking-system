@@ -77,7 +77,7 @@ Request Flow
 
 🛠️ Tech Stack:
 
-
+![image alt](https://github.com/NandaniRajput876/parking-system/blob/54852cc07b45a348a9f74483ef823d0c484b2eda/WhatsApp%20Image%202026-08-18%20at%2002.29.46.jpeg)
 
 📂 Project Structure:
 
