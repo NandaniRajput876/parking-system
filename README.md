@@ -178,5 +178,6 @@ The APIs can be tested using: Postman
 
 📊 Working Flow:
 
+![image alt](https://github.com/NandaniRajput876/parking-system/blob/9ae9fcb2aa0351839afd7ac6eda9571c1502159c/working_flow.jpeg)
 
 
