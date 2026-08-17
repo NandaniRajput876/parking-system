@@ -15,7 +15,7 @@ Java 21 as the programming language
 The current project configuration is based on Spring Boot 4.1.0, Java 21, Spring Data JPA, Spring Web MVC, and MySQL.
 
 🏗️ Architecture
-The application follows a layered Spring Boot architecture:
+The application follows a layered Spring Boot architecture: 
                      Client
                        |
                        | HTTP Request
