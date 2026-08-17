@@ -55,22 +55,94 @@ Request Flow
                Client
 
 🛠️ Tech Stack
-Technology
-Purpose
-Java 21
-Programming Language
-Spring Boot 4.1.0
-Backend Framework
-Spring Web MVC
-REST API Development
-Spring Data JPA
-Database Access
-Hibernate
-ORM
-MySQL
-Database
-Maven
-Build & Dependency Management
-JUnit / Spring Boot Test
-Testing
-The dependencies are defined in the project's pom.xml
+Technology Purpose
+Java 21 Programming Language
+Spring Boot 4.1.0 Backend Framework
+Spring Web MVC REST API Development
+Spring Data JPA Database Access
+Hibernate ORM
+MySQL Database
+
+📂 Project Structure
+A recommended structure for the Parking Management System is:
+
+parking-management-system
+│
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   └── com.example.parkingmanagementsystem
+│   │   │       │
+│   │   │       ├── controller
+│   │   │       │
+│   │   │       ├── service
+│   │   │       │
+│   │   │       ├── repository
+│   │   │       │
+│   │   │       ├── entity
+│   │   │       │
+│   │   │       └── ParkingManagementSystemApplication.java
+│   │   │
+│ │ └ resources
+
+
+🚘Core Modules
+The application can be organized around the following modules.
+1. Vehicle Management
+Responsible for managing vehicles entering and leaving the parking facility.
+Typical operations:
+
+Add Vehicle
+Get Vehicle
+Update Vehicle
+Delete Vehicle
+
+2. Parking Slot Management
+Responsible for managing available and occupied parking slots.
+Typical operations:
+
+Create Parking Slot
+View Parking Slots
+Check Slot Availability
+Update Slot Status
+
+3. Parking Management
+Responsible for maintaining parking records.
+A parking record can contain information such as:
+
+Vehicle
+Parking Slot
+Entry Time
+Exit Time
+Parking Status
+
+ REST API
+The backend exposes REST APIs using Spring Web MVC.
+Typical API structure:
+
+POST    /api/vehicles
+GET     /api/vehicles
+GET     /api/vehicles/{id}
+PUT     /api/vehicles/{id}
+DELETE  /api/vehicles/{id}
+
+Parking slot APIs:
+POST    /api/parking-slots
+GET     /api/parking-slots
+GET     /api/parking-slots/{id}
+PUT     /api/parking-slots/{id}
+DELETE  /api/parking-slots/{id}
+
+Parking APIs:
+POST    /api/parking
+GET     /api/parking
+GET     /api/parking/{id}
+PUT     /api/parking/{id}
+DELETE  /api/parking/{id}
+
+These endpoints are the intended API structure for the README; the uploaded 
+files do not currently provide controller implementations to verify exact endpoint 
+names.
+
+
+
