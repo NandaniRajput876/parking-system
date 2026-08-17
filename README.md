@@ -140,11 +140,19 @@ e) Parking Status
 
 The backend exposes REST APIs using Spring Web MVC.
 
-Typical API structure: Parking slot APIs: Parking APIs:
+Typical API structure:
+
+Parking slot APIs:
+
+Parking APIs:
 
 🗄 Database:
 
-The application uses MySQL as its database. Spring Data JPA is used to communicate with the database. The project includes the MySQL Connector/J runtime dependency in pom.xml.
+The application uses MySQL as its database. 
+
+Spring Data JPA is used to communicate with the database.
+
+The project includes the MySQL Connector/J runtime dependency in pom.xml.
 
 
 
