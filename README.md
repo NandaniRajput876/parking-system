@@ -170,7 +170,13 @@ Example:
 
 The project includes Spring Boot testing dependencies.
 
+![image alt](https://github.com/NandaniRajput876/parking-system/blob/f11aefc9dcf56e974620725d3cb1df47ecf80983/testing.jpeg)
 
+🔍 API Testing:
+
+The APIs can be tested using: Postman
+
+📊 Working Flow:
 
 
 
