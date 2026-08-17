@@ -83,9 +83,9 @@ Request Flow
 
 A recommended structure for the Parking Management System is:
 
+![image alt](https://github.com/NandaniRajput876/parking-system/blob/5ce0248e68bae3b6feffaf02933ffec50ff591e6/project_structure.jpeg)
  
-files do not currently provide controller implementations to verify exact endpoint 
-names.
+
 
 
 
