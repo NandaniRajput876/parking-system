@@ -16,6 +16,24 @@ The current project configuration is based on Spring Boot 4.1.0, Java 21, Spring
 
 🏗️ Architecture
 The application follows a layered Spring Boot architecture: 
+
+               Client
+                      |
+                      | HTTP Request
+                      v
+              +----------------+
+              |   Controller   |
+              +----------------+
+                      |
+                      v
+              +----------------+
+              |    Service     |
+              +----------------+
+                      |
+                      v
+              +----------------+
+              |   Repository   |
+              +----------------+
                 
 
 Request Flow
